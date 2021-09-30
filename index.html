@@ -26,33 +26,104 @@
       </div>
     </header>
     <main>
-        <section class="filter-container">
-            <h2>Filters</h2>
-            <p>This section is to apply special filters to the count</p>
-            <h3>Select one : </h3>
-            <article class="radio-container">
-                <div class="radiobutton">
-                    <input type="radio" name="task" value="Select this">
-                    <p>Will not be counted</p>
-                </div>
-                <div class="radiobutton">
-                    <input type="radio" name="task" value="Select this">
-                    <p>Will be counted</p>
-                </div>
-            </article>
-            <p>Write the worlds separated by  " , "</p>
-            <input type="text" placeholder="Ex : bed,car,benson">
-        </section>
-        <section class="text-container">
-            <h2>Copy your text here : </h2>
-            <input type="text" class="text-input">
-            <div class="text-buttons">
-                <button>Clean</button>
-                <button>Count</button>
+      <section class="filter-container">
+        <h2>Filters</h2>
+        <div class="filter-content">
+          <p class="filter-description">
+            This section is to apply special filters to the count
+          </p>
+          <h3>Select one :</h3>
+          <article class="radio-container">
+            <div class="radiobutton">
+              <input type="radio" name="task" value="Select this" />
+              <p>Will not be counted</p>
             </div>
-            <p>Characters : </p>
-            <p>Words : </p>
-        </section>
+            <div class="radiobutton">
+              <input type="radio" name="task" value="Select this" />
+              <p>Will be counted</p>
+            </div>
+          </article>
+          <p class="filter-ad-1">Write the worlds separated by " , "</p>
+          <input
+            type="text"
+            class="filter-input"
+            placeholder="Ex : bed,car,benson"
+          />
+          <p class="filter-ad-2">
+            if the space is left blank all characters will be counted
+          </p>
+        </div>
+      </section>
+      <section class="text-container">
+        <h2>Copy your text here :</h2>
+        <div class="text-content">
+          <input type="text" class="text-input" />
+          <div class="text-buttons">
+            <button id="cleanButton">Clean</button>
+            <button id="countButton">Count</button>
+          </div>
+          <div class="result-container">
+            <p>Characters :</p>
+            <p>Words :</p>
+          </div>
+        </div>
+      </section>
+      <section class="descriptor">
+        <h2>What is Nuverba?</h2>
+        <article class="descriptor-text">
+          <p>
+            Nuverba is a specific website for word and character counting with
+            the ability to use filters if required.
+          </p>
+          <br />
+          <p>
+            It's was build with html css and javascript , at the moment the page
+            only supports plain text but in the future I plan to add pdfs, word
+            files and even photos if the text can be clearly identified
+          </p>
+          <br />
+          <p>
+            If you are a student, a teacher or another type of professional or
+            even a simple curious person, this tool will be very useful.
+          </p>
+          <br />
+          <p class="descriptor-author">Att the developer : Harold Burbano</p>
+        </article>
+      </section>
     </main>
+    <footer>
+      <h2>Contact me</h2>
+      <section class="contact-me">
+        <div class="gmail-section">
+          <h3>Contact :</h3>
+          <p>haroldburbano2002@gmail.com</p>
+        </div>
+        <div class="social-section">
+          <h3>Social :</h3>
+          <ul class="contact-list">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/harold-burbano-9a7590219/"
+                target="_blank"
+                ><span></span> Linkedln</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/burbanox" target="_blank"
+                ><span></span> Github</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/harold_burbano44/"
+                target="_blank"
+                ><span></span> Instagram</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+      <p class="credits">© Harold Burbano 2021</p>
+    </footer>
   </body>
 </html>
