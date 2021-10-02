@@ -116,7 +116,7 @@ main h2, main h3
 {
   width: 80%;
   padding : 30px 0px 30px 0px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 .text-input
 {
@@ -173,8 +173,8 @@ main h2, main h3
 }
 footer
 {
-  background-color: var(--second-color);
-  color: var(--first-color);
+  background-color: var(--fifth-color);
+  color: var(--second-color);
   padding: 25px 20px 25px 20px;
 }
 footer h2
