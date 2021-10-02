@@ -1,0 +1,40 @@
+.contact-list
+{
+    display: flex;
+}
+.contact-list li
+{
+    padding: 0 15px;
+}
+footer
+{
+  padding: 50px 30px 50px 30px;
+}
+.footer-container
+{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+footer h2
+{
+    font-size: 3.3rem;
+    margin-bottom: 35px;
+}
+.contact-me h3
+{
+  font-size: 3.0rem;
+}
+.contact-me p
+{
+  font-size: 2.0rem;
+}
+.contact-me .contact-list li,
+.contact-me .contact-list a
+{
+  font-size: 2.0rem;
+}
+.contact-me .contact-list span
+{
+  width: 40px;
+  height: 40px;
+}
