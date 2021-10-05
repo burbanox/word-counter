@@ -122,6 +122,8 @@ main h2, main h3
 {
   width: 100%;
   height: 250px;
+  font-size: 1.8rem;
+  padding: 15px;
 }
 .text-buttons
 {
@@ -145,6 +147,7 @@ main h2, main h3
   transition: 0.5s;
   transform: scale(1.1);
   border : 2px solid lightskyblue;
+  cursor: pointer;
 }
 #cleanButton
 {
