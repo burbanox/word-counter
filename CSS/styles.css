@@ -116,6 +116,7 @@ main h2, main h3
 {
   width: 80%;
   padding : 30px 0px 30px 0px;
+  margin: 0 auto;
   /* margin: 0 auto; */
 }
 .text-input
